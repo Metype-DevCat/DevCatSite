@@ -1,7 +1,7 @@
 function populateHeader(unlinked) {
-    let links = ["index.html","page2.html"]
+    let links = ["index.html","page2.html","page3.html"]
   
-    let names = ["Main","Page2"]
+    let names = ["Main","Page2","Page3"]
   
     let header = $("<header></header>");
     header.addClass("header");
