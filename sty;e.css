@@ -1,4 +1,54 @@
-#page-header {
-    background-color: slategray;
-    display: inline;
+h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+}
+
+body {
+    background-color: #2F3133;
+    z-index: 0;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+
+.nav {
+    display:inline-block;
+    text-decoration:none;
+    color: white;
+    font-size:x-small;
+    margin-right:3%;
+    margin-top:-1%;
+    transition: color 100ms linear;
+}
+
+.nav:hover {
+    color: silver;
+    transition: color 100ms linear;
+}
+
+.current {
+    color: rgb(103, 96, 146);
+}
+
+.current:hover {
+    color: rgb(103, 96, 146);
+}
+
+.header {
+    background-color: hsl(210, 4%, 21%);
+    position:sticky;
+    left:0;
+    right:0;
+    top:0;
+    z-index: 1;
+    margin-top:0;
+    padding-top:.5%;
+    border-bottom: 1;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    border-style: solid;
+    margin-bottom:2%;
+}
+
+.clickable:hover {
+  cursor: pointer;
 }
